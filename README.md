@@ -48,58 +48,54 @@
 
 - 创建型模式：对象如何来
 
-	- 工厂方法模式(Factory)：
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/factorymethod">工厂方法模式</a>(Factory)：使用工厂方法产生实例
 
-	- 抽象工厂模式(Abstractfactory)：
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/abstractfactory">抽象工厂模式</a>(Abstractfactory)：使用抽象工厂创建实例对象
 
-	- 单例模式(Sington)：
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/singleton">单例模式</a>(Sington)：当前实例中类只有一个对象
 	
-	- 建造者模式(Builder)：
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/builder">建造者模式</a>(Builder)：创建一个复杂对象过程
 	
-	- 原型模式(Prototype)：
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/prototype">原型模式</a>(Prototype)：对象拷贝，深复制、浅复制
 
 - 结构型模式：对象之间的关系
 
-	- 适配器模式（Adapter Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/adapter">适配器模式</a>（Adapter Pattern）：适配不兼容接口
 	
-	- 桥接模式（Bridge Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/bridge">桥接模式</a>（Bridge Pattern）：抽象部分与实际部分分离
 	
-	- 过滤器模式（Filter、Criteria Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/composite">组合模式</a>（Composite Pattern）：将对象组合成属性结构来表示部分与整体的层次结构
 	
-	- 组合模式（Composite Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/decorater">装饰器模式</a>（Decorator Pattern）：动态的给一个对象添加一个额外的职责
 	
-	- 装饰器模式（Decorator Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/facade">外观模式</a>（Facade Pattern）：为子系统的一组接口提供了一个一致的界面
 	
-	- 外观模式（Facade Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/flyweight">享元模式</a>（Flyweight Pattern）：运用共享技术有效的支持大量细粒度的对象
 	
-	- 享元模式（Flyweight Pattern）
-	
-	- 代理模式（Proxy Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/proxy">代理模式</a>（Proxy Pattern）：增加中间层代理类与底层实现类实现共同接口，并创建底层实现类对象，以便向外界提供功能接口
 	
 - 行为型模式：对象做什么
 
-	- 责任链模式（Chain of Responsibility Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/chainofresponsibility">责任链模式</a>（Chain of Responsibility Pattern）：使多个对象都有机会处理请求，避免请求的发送者和接受者之间的耦合关系，将这个对象连成一条链
 	
-	- 命令模式（Command Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/command">命令模式</a>（Command Pattern）：将一个请求封装成一个对象，使用户对不同请求对客户进行参数化，对请求排队或记录请求日志，请求撤销操作
 	
-	- 解释器模式（Interpreter Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/interpreter">解释器模式</a>（Interpreter Pattern）：给定一个语言，定义他的一个文法的一种表示，并定义一个解释器。
 	
-	- 迭代器模式（Iterator Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/iterator">迭代器模式</a>（Iterator Pattern）：提供一种方法顺序访问一个聚合对象中的元素，并且不暴露内部表示
 	
-	- 中介者模式（Mediator Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/mediator">中介者模式</a>（Mediator Pattern）：用一个中介对象封装一系列对象的交互
 	
-	- 备忘录模式（Memento Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/memento">备忘录模式</a>（Memento Pattern）：在不破坏封装的情况下，捕获一个类的内部状态，并在外部保存。可以将对象恢复到原先的状态
 	
-	- 观察者模式（Observer Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/observer">观察者模式</a>（Observer Pattern）：定义了一种一对多的依赖关系，让多个监听者对象同时监听同一个主题对象
 	
-	- 状态模式（State Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/state">状态模式</a>（State Pattern）：一个对象内在状态改变是允许改变其行为
 	
-	- 空对象模式（Null Object Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/strategy">策略模式</a>（Strategy Pattern）：策略模式是一种定义了一系列算法的方法，所有的算法都是完成相同的工作，只是实现方法不同，减少了各种算法类与使用方法之间的耦合
 	
-	- 策略模式（Strategy Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/template">模板模式</a>（Template Pattern）：定义一个操作算法骨架，而将一些步骤延迟到子类。
 	
-	- 模板模式（Template Pattern）
-	
-	- 访问者模式（Visitor Pattern）
+	- <a href="https://github.com/Xchunguang/Design-pattern/tree/master/src/main/java/com/mysoft/visitor">访问者模式</a>（Visitor Pattern）：把数据结构和作用于结构上的操作解耦合，使得操作集合可相对自由地演化
 	
 	
